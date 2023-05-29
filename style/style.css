@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Kanit:ital,wght@1,200&display=swap');
+
+
+:root {
+    --font-family:
+        font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    --primary-color: #7462ac;
+    --bg-color:#1D267D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--primary-color);
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+h1{
+    font-size: 4em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    margin-top: 10px ;
+    font-size: 2em;
+}
+
+.mensagem{
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box{
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid var(--primary-color);
+}
+
+.btn__jogar{
+    padding: 1rem;
+    border: 0;
+    border-radius: 24px;
+    background-color: transparent;
+    color: var(--primary-color);
+    margin: 10px;
+    border: 2px solid ;
+}
+
+
+@media screen and (max-width:720px){
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 2.5em;
+    }
+
+    
+    button{
+        margin: 10px;
+        padding: 10px;
+        background-color: transparent;
+        color: var(--primary-color);
+        border-radius: 24px;
+        
+    }
+    h3{
+        font-size: 1em;
+    }
+    .box{
+        font-size: 2em;
+    }
+}
